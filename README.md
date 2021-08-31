@@ -1,29 +1,46 @@
-# Next.js + Tailwind CSS Example
+Hello, <br/>
+Thank you for giving me this opportunity at Inovola company,<br/>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## View Pages
+    https://peterazer.com/tasks/inovola/
+    please click on login button to view sign up page.
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+## Skills Used
+    HTML5
+    Tailwind CSS
+    PROP TYPE CHECKIND
+    ESLINT
+    REACT HOOKS (useState, useContext, useEffect and use custom hook)
+    NEXT JS
 
-## Preview
+## Packages Used
+    REACT JS: Single page application developed by Facebook.
+    NEXT JS: Static server side render (SSR).
+    TAILWIND CSS: CSS framwork.
+    PROP TYPES: Prop type checking for developer.
+    ESLINT: Is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+    AXIOS: Handle APIs requests.
+    CLASSNAMES: class condintions.
+    NPROGRESS: Loader bar.
+    SLICK SLIDER: Carousel items slider.
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## App Structure
+    Modules
+    - Components containing cards, content, fields, layout and navigations.
+    - Helpers containing flag icons, slideArrows, iterable methods, and localstorage methods.
+    - Hooks: containing contexts and custom hooks.
+    - Layouts: containing main, form layouts.
+    - Partails: containing header, footer.
+    - Services: containing endpoints, methods and config.
+    - Store: containing Actions, Reducers, and states.
+    Pages: containing index and signup pages.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Install Scripts
+### `npm install`
+### `npm run dev`
 
-## Deploy your own
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
